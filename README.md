@@ -13,4 +13,6 @@ This project is a clone application of Instagram UI using React-Native.
 
 <p float="left">
   <img src="/Images/Search1" width="100" />
+  <img src="/Images/Search2" width="100" />
+
 </p>
