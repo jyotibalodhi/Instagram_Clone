@@ -1,7 +1,10 @@
-import React from 'react';
-import {View, TextInput} from 'react-native';
+import React, {useState} from 'react';
+import {View, TextInput, TouchableOpacity, FlatList} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-const SearchBar = () => {
+
+const SearchBar = props => {
+  const [text, setText] = useState('');
+
   return (
     <View
       style={{
@@ -13,17 +16,28 @@ const SearchBar = () => {
         paddingBottom: 10,
         position: 'relative',
       }}>
-      <Icon
-        name="search"
+      <TouchableOpacity
         style={{
-          fontSize: 20,
           zIndex: 1,
           position: 'absolute',
           left: 30,
-        }}></Icon>
+        }}
+        onPress={() => {
+          text ? (props.value(text), setText('')) : console.log('second');
+        }}>
+        <Icon
+          style={{
+            fontSize: 20,
+            zIndex: 1,
+            bottom: 4,
+          }}
+          name="search"></Icon>
+      </TouchableOpacity>
       <TextInput
         placeholder="Search"
         placeholderTextColor="#909090"
+        onChangeText={value => setText(value)}
+        defaultValue={text}
         style={{
           width: '95%',
           fontSize: 20,

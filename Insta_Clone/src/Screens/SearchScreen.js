@@ -10,19 +10,23 @@ import {
 } from 'react-native';
 import SearchContent from '../Components/SearchComponents/SearchContent';
 import SearchBar from '../Components/SearchComponents/SearchBar';
-import AntDesign from 'react-native-vector-icons/AntDesign';
 import Ionic from 'react-native-vector-icons/Ionicons';
-import Feather from 'react-native-vector-icons/Feather';
 
 const SearchScreen = () => {
   const [image, setImage] = useState(null);
+  const [searchVal, setSearchVal] = useState('');
 
   const getData = data => {
     setImage(data);
   };
 
+  const getValue = value => {
+    value = value.toLowerCase();
+    setSearchVal(value);
+  };
+
   const windowWidth = Dimensions.get('window').width;
-  const windoeHeight = Dimensions.get('window').height;
+  const windowHeight = Dimensions.get('window').height;
 
   return (
     <View
@@ -33,15 +37,15 @@ const SearchScreen = () => {
         position: 'relative',
       }}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <SearchBar />
-        <SearchContent data={getData} />
+        <SearchBar value={getValue} />
+        <SearchContent data={getData} page={searchVal} />
         <TouchableOpacity
           style={{
             margin: 25,
             justifyContent: 'center',
             alignItems: 'center',
           }}>
-          <AntDesign name="pluscircleo" style={{fontSize: 40, opacity: 0.5}} />
+          <Ionic name="add-circle" style={{fontSize: 40, opacity: 0.5}} />
         </TouchableOpacity>
       </ScrollView>
       {image ? (
@@ -57,7 +61,7 @@ const SearchScreen = () => {
           <View
             style={{
               position: 'absolute',
-              top: windoeHeight / 6,
+              top: windowHeight / 6,
               left: windowWidth / 18,
               backgroundColor: 'white',
               width: '90%',
@@ -98,7 +102,7 @@ const SearchScreen = () => {
               }}>
               <Ionic name="ios-heart-outline" style={{fontSize: 26}} />
               <Ionic name="ios-person-circle-outline" style={{fontSize: 26}} />
-              <Feather name="navigation" style={{fontSize: 26}} />
+              <Ionic name="paper-plane-outline" style={{fontSize: 26}} />
             </View>
           </View>
         </View>
