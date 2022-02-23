@@ -66,7 +66,6 @@ const SearchContent = props => {
       name: 'view',
       images: [
         require('../../Storage/Images/search11.jpeg'),
-
         require('../../Storage/Images/search14.jpeg'),
         require('../../Storage/Images/search2.jpeg'),
         require('../../Storage/Images/search5.jpeg'),

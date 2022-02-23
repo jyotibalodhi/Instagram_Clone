@@ -15,11 +15,12 @@ This project is a clone application of Instagram UI using React-Native.
   <img src="/Images/Search1.png" width="300" />
   <img src="/Images/Search2.png" width="320" />
 
-
-
 https://user-images.githubusercontent.com/63946672/154904393-1259fbaf-04cd-4d22-806d-793391712fcc.mov
-
-
 
 </p>
 
+### Profile Screen
+
+<p float="left">
+  <img src="Images/ProfilePage.png" width="300" />
+</p>

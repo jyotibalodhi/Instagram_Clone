@@ -34,7 +34,9 @@ const Main = () => {
           style={{fontSize: 24, color: 'black'}}
         />
       </View>
-      <ScrollView showsHorizontalScrollIndicator={false}>
+      <ScrollView
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}>
         <StoriesBar />
         <Post />
       </ScrollView>

@@ -1,13 +1,6 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {
-  View,
-  ScrollView,
-  Image,
-  Text,
-  TouchableOpacity,
-  StatusBar,
-} from 'react-native';
+import {View, ScrollView, Image, Text, TouchableOpacity} from 'react-native';
 import {story} from '../../Storage/StoriesData';
 import styles from './StatusStyle';
 import {useNavigation} from '@react-navigation/native';
