@@ -56,8 +56,8 @@ export const FriendsProfileData = [
     follow: false,
   },
   {
-    name: 'Akaash Singh',
-    accountName: 'Mr beast',
+    name: 'Falak Hasija',
+    accountName: 'falak_hasija1509',
     profileImage: require('../../Storage/Images/posts7.jpeg'),
     posts: 321,
     followers: '435k',

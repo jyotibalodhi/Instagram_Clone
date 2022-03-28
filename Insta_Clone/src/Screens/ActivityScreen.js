@@ -27,7 +27,7 @@ const ActivityScreen = () => {
       <ScrollView style={{margin: 10}} showsVerticalScrollIndicator={false}>
         <Text style={{fontWeight: 'bold', color: 'black'}}>This Week</Text>
         <View style={{flexDirection: 'row', paddingVertical: 10}}>
-          {FriendsProfileData.slice(0, 3).map((data, index) => {
+          {FriendsProfileData.slice(0, 2).map((data, index) => {
             return (
               <TouchableOpacity
                 onPress={() =>
