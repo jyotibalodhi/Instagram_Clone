@@ -77,7 +77,7 @@ const ProfileScreen = () => {
               />
               <View style={{paddingLeft: 8}}>
                 <Text style={{fontSize: 12, fontWeight: '600'}}>
-                  the_anonymous_one
+                  cristina_brown
                 </Text>
               </View>
             </View>

@@ -3,9 +3,9 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Main from '../Screens/MainScreen';
-import PostsScreen from '../Screens/PostsScreen';
+import ReelsScreen from '../Screens/ReelsScreen';
 import SearchScreen from '../Screens/SearchScreen';
-import FriendsScreen from '../Screens/FriendsScreen';
+import ActivityScreen from '../Screens/ActivityScreen';
 import ProfileScreen from '../Screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
@@ -21,8 +21,8 @@ export default function TabNav() {
             iconName = focused ? 'home' : 'home-outline';
           } else if (route.name === 'Search') {
             iconName = focused ? 'search' : 'search-outline';
-          } else if (route.name === 'Post') {
-            iconName = focused ? 'add-circle' : 'add-circle-outline';
+          } else if (route.name === 'Reels') {
+            iconName = focused ? 'play-circle' : 'play-circle-outline';
           } else if (route.name === 'Friends') {
             iconName = focused ? 'heart' : 'heart-outline';
           } else if (route.name === 'Profile') {
@@ -39,8 +39,8 @@ export default function TabNav() {
       })}>
       <Tab.Screen name="Feed" component={Main} />
       <Tab.Screen name="Search" component={SearchScreen} />
-      <Tab.Screen name="Post" component={PostsScreen} />
-      <Tab.Screen name="Friends" component={FriendsScreen} />
+      <Tab.Screen name="Reels" component={ReelsScreen} />
+      <Tab.Screen name="Friends" component={ActivityScreen} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
     </Tab.Navigator>
   );

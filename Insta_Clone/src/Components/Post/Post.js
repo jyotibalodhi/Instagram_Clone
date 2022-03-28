@@ -3,9 +3,8 @@ import {View, Image, Text, TextInput} from 'react-native';
 import {posts} from '../../Storage/PostsData';
 import styles from '../Post/CardStyle';
 import Icon from 'react-native-vector-icons/Ionicons';
-import Entypo from 'react-native-vector-icons/Entypo';
 
-import Buttons from '../Buttons/Button';
+import LikeBtn from '../Buttons/LikeButton';
 
 const Post = () => {
   return (
@@ -48,7 +47,7 @@ const Post = () => {
               <Image source={{uri: data.image}} style={styles.Image} />
             </View>
             <View>
-              <Buttons likes={data.likes} />
+              <LikeBtn likes={data.likes} />
               <View
                 style={{
                   color: 'black',
