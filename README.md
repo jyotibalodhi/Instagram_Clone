@@ -1,6 +1,14 @@
 ## Instagram_Clone
 
 This project is a clone application of Instagram UI using React-Native.
+### Final Clone Application
+
+
+https://user-images.githubusercontent.com/63946672/160826810-56e2ccaf-f5e8-4ef1-b248-d960a1b40a1b.mp4
+
+
+
+
 
 ### Feed Screen
 
