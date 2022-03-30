@@ -19,8 +19,17 @@ https://user-images.githubusercontent.com/63946672/154904393-1259fbaf-04cd-4d22-
 
 </p>
 
+
+### Activity Screen
+
+
+https://user-images.githubusercontent.com/63946672/160419753-5faca3a5-9fae-4c3f-9ac5-d97586a4031e.mov
+
+
 ### Profile Screen
 
 <p float="left">
   <img src="Images/ProfilePage.png" width="300" />
 </p>
+
+
