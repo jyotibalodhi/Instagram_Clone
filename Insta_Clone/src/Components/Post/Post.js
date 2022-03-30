@@ -4,7 +4,7 @@ import {posts} from '../../Storage/PostsData';
 import styles from '../Post/CardStyle';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import LikeBtn from '../Buttons/LikeButton';
+import LikeBtn from '../Buttons/Buttons';
 
 const Post = () => {
   return (
