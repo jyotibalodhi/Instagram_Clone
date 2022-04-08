@@ -34,6 +34,6 @@ export const posts = [
     postStatus: "Isn't it beautiful ☘️ ",
     image:
       'https://images.pexels.com/photos/3214968/pexels-photo-3214968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    likes: 451,
+    likes: 471,
   },
 ];
