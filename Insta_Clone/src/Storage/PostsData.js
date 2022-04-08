@@ -36,4 +36,30 @@ export const posts = [
       'https://images.pexels.com/photos/3214968/pexels-photo-3214968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     likes: 471,
   },
+  {
+    name: 'Cole.Sam',
+    avatar:
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=a72ca28288878f8404a795f39642a46f',
+    place: 'Singapore',
+    postStatus: 'Some Dessert 🍧',
+    image:
+      'https://images.pexels.com/photos/1579926/pexels-photo-1579926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  },
+  {
+    name: 'Rachel.Green',
+    avatar:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=707b9c33066bf8808c934c8ab394dff6',
+    place: 'New York',
+    postStatus: 'Serenity ☘️ ',
+    image:
+      'https://images.pexels.com/photos/4009464/pexels-photo-4009464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+  },
+  {
+    name: 'Sid_D',
+    avatar: 'https://randomuser.me/api/portraits/men/86.jpg',
+    place: 'Singapore',
+    postStatus: 'All pink 🌷 ',
+    image:
+      'https://images.pexels.com/photos/7026306/pexels-photo-7026306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+  },
 ];
