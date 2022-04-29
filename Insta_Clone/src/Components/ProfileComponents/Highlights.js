@@ -6,19 +6,19 @@ const Highlights = () => {
   const HighlightsItem = [
     {
       title: 'Friends',
-      image: require('../../Storage/Images/highlight1.jpeg'),
+      image: require('../../Storage/Images/Profile_Page/highlight1.jpeg'),
     },
     {
       title: 'Travel',
-      image: require('../../Storage/Images/highlight2.jpeg'),
+      image: require('../../Storage/Images/Profile_Page/highlight2.jpeg'),
     },
     {
       title: 'Food 🍔',
-      image: require('../../Storage/Images/highlight3.jpeg'),
+      image: require('../../Storage/Images/Profile_Page/highlight3.jpeg'),
     },
     {
       title: 'Yog ',
-      image: require('../../Storage/Images/highlight4.jpeg'),
+      image: require('../../Storage/Images/Profile_Page/highlight4.jpeg'),
     },
   ];
   return (

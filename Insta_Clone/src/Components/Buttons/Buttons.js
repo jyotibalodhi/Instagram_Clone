@@ -1,9 +1,7 @@
 import React from 'react';
 import {TouchableOpacity, Text, View} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import Entypo from 'react-native-vector-icons/Entypo';
 
-import {posts} from '../../Storage/PostsData';
 import {useState} from 'react';
 import styles from './ButtonStyle';
 import CommentBtn from './CommentBtn';

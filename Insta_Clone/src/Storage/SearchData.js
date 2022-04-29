@@ -1,50 +1,50 @@
 export const searchData = [
   {
     id: 0,
-    image: require('../Storage/Images/search1.jpeg'),
+    image: require('../Storage/Images/Search_Page/search1.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search2.jpeg'),
+    image: require('../Storage/Images/Search_Page/search2.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search3.jpeg'),
+    image: require('../Storage/Images/Search_Page/search3.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search4.jpeg'),
+    image: require('../Storage/Images/Search_Page/search4.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search5.jpeg'),
+    image: require('../Storage/Images/Search_Page/search5.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search6.jpeg'),
+    image: require('../Storage/Images/Search_Page/search6.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search7.jpeg'),
+    image: require('../Storage/Images/Search_Page/search7.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search8.jpeg'),
+    image: require('../Storage/Images/Search_Page/search8.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search9.jpeg'),
+    image: require('../Storage/Images/Search_Page/search9.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search10.jpeg'),
+    image: require('../Storage/Images/Search_Page/search10.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search11.jpeg'),
+    image: require('../Storage/Images/Search_Page/search11.jpeg'),
   },
   {
     id: 1,
-    image: require('../Storage/Images/search12.jpeg'),
+    image: require('../Storage/Images/Search_Page/search12.jpeg'),
   },
 ];

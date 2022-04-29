@@ -4,7 +4,7 @@ export const FriendsProfileData = [
   {
     name: 'Surbhi_Rana',
     accountName: 'surbhi',
-    profileImage: require('../../Storage/Images/posts1.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts1.jpeg'),
     posts: 78,
     followers: 8768,
     following: 112,
@@ -13,7 +13,7 @@ export const FriendsProfileData = [
   {
     name: 'Falak Hasija',
     accountName: 'falak_hasija1509',
-    profileImage: require('../../Storage/Images/posts2.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts2.jpeg'),
     posts: 24,
     followers: 1253,
     following: 64,
@@ -22,7 +22,7 @@ export const FriendsProfileData = [
   {
     name: 'Falak Hasija',
     accountName: 'falak_hasija1509',
-    profileImage: require('../../Storage/Images/posts3.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts3.jpeg'),
     posts: 21,
     followers: 7886,
     following: 32,
@@ -31,7 +31,7 @@ export const FriendsProfileData = [
   {
     name: 'Beautiful Gifts',
     accountName: 'Gifts_here',
-    profileImage: require('../../Storage/Images/posts4.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts4.jpeg'),
     posts: 123,
     followers: 64253,
     following: 32,
@@ -40,7 +40,7 @@ export const FriendsProfileData = [
   {
     name: 'Roushi K',
     accountName: 'The Roccc',
-    profileImage: require('../../Storage/Images/posts5.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts5.jpeg'),
     posts: 784,
     followers: 8973,
     following: 217,
@@ -49,7 +49,7 @@ export const FriendsProfileData = [
   {
     name: 'mr_bean',
     accountName: 'Mr Bean',
-    profileImage: require('../../Storage/Images/posts6.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts6.jpeg'),
     posts: 879,
     followers: '564k',
     following: 32,
@@ -58,7 +58,7 @@ export const FriendsProfileData = [
   {
     name: 'Akaash Singh',
     accountName: 'Mr beast',
-    profileImage: require('../../Storage/Images/posts7.jpeg'),
+    profileImage: require('../../Storage/Images/Profile_Page/posts7.jpeg'),
     posts: 321,
     followers: '435k',
     following: 11,
@@ -67,7 +67,7 @@ export const FriendsProfileData = [
   {
     name: 'Satyam Badola',
     accountName: 'suraj_b',
-    profileImage: require('../../Storage/Images/search3.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search1.jpeg'),
     posts: 321,
     followers: '763k',
     following: 311,
@@ -76,7 +76,7 @@ export const FriendsProfileData = [
   {
     name: 'Shrey',
     accountName: 'ShreyAggarwal',
-    profileImage: require('../../Storage/Images/search2.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search2.jpeg'),
     posts: 123,
     followers: 21344,
     following: 1,
@@ -85,7 +85,8 @@ export const FriendsProfileData = [
   {
     name: 'angry_bird',
     accountName: 'Angry Bird',
-    profileImage: require('../../Storage/Images/search1.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search1.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search1.jpeg'),
     posts: 243,
     followers: 27391,
     following: 211,
@@ -94,7 +95,7 @@ export const FriendsProfileData = [
   {
     name: 'Steve',
     accountName: 'Captain America',
-    profileImage: require('../../Storage/Images/search4.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search4.jpeg'),
     posts: 786,
     followers: '987k',
     following: 24,
@@ -103,7 +104,7 @@ export const FriendsProfileData = [
   {
     name: 'All about DU',
     accountName: 'DU Official',
-    profileImage: require('../../Storage/Images/search7.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search7.jpeg'),
     posts: '1.2k',
     followers: '1.2M',
     following: 120,
@@ -112,7 +113,7 @@ export const FriendsProfileData = [
   {
     name: '_don_',
     accountName: 'Don',
-    profileImage: require('../../Storage/Images/search9.jpeg'),
+    profileImage: require('../../Storage/Images/Search_Page/search9.jpeg'),
     posts: 542,
     followers: 2761,
     following: 162,

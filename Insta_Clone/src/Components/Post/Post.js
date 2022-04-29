@@ -44,7 +44,7 @@ const Post = () => {
               />
             </View>
             <View>
-              <Image source={{uri: data.image}} style={styles.Image} />
+              <Image source={data.image} style={styles.Image} />
             </View>
             <View>
               <LikeBtn likes={data.likes} />

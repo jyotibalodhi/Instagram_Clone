@@ -31,7 +31,7 @@ const ProfileScreen = () => {
           name="Cristina Brown"
           followers="1.6k"
           following="592"
-          accountImage={require('../Storage/Images/accountImage.jpeg')}
+          accountImage={require('../Storage/Images/Profile_Page/accountImage.jpeg')}
           posts="240"
           status={'Glad you thought of coming here😇 \nSaggitarius♐️'}
         />
